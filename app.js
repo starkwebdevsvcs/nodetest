@@ -8,8 +8,9 @@ require('dotenv').config(); //dotenv
 require('console-stamp')(console, 'HH:MM:ss');
 
 const server = http.createServer(function(req, res) {
+    console.log('Server started!!');
     res.writeHead(200, {'Content-Type': 'text/plain'});
-    let message = 'It works!\n',
+    let message = 'It works!!!\n',
         version = 'NodeJS ' + process.versions.node + '\n',
         monkey = env.MONKEY + '\n',
         elephant = env.ELEPHANT + '\n',

@@ -1,0 +1,8 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/starkweb/public_html/nodetest"
+PassengerBaseURI "/nodetest"
+PassengerNodejs "/home/starkweb/nodevenv/public_html/nodetest/9/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+PassengerAppLogFile "/home/starkweb/public_html/nodetest/logs/passenger.log"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
